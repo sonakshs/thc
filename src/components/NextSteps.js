@@ -45,7 +45,7 @@ const NextSteps = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {nextSteps.map(
             ({ title, description, buttonLink, buttonText, iconSrc }) => (
-              <div className="flex flex-col items-center justify-between p-6 bg-gray-100 rounded-lg shadow-md">
+              <div key={title} className="flex flex-col items-center justify-between p-6 bg-gray-100 rounded-lg shadow-md">
                 <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center">
                   <img src={iconSrc} alt="" />
                 </div>
