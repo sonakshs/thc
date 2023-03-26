@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <div className="relative w-full h-screen">
       <Image
+        alt="Traditional Health Centre"
         src="https://picsum.photos/1920/1080"
         layout="fill"
         objectFit="cover"

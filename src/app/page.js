@@ -9,6 +9,7 @@ import Events from "../components/Events";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "./globals.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 export default function Home() {
   return (

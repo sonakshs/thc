@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 
-const DEFAULT_MESSAGE = "Hello, I'd like to know more about your programs."; // Replace with your message
-const PHONE_NO = "9927630362";
+const DEFAULT_MESSAGE = "Hello, I'd like to know more about your programs.";
+const PHONE_NO = "9354226271";
 
 export default function Contact() {
   const [message, setMessage] = useState("");
@@ -12,7 +12,7 @@ export default function Contact() {
     e.preventDefault();
     setStatus("sending");
     try {
-      const url = `https://api.whtsapp.com/send?phone=${PHONE_NO}&text=${encodeURIComponent(
+      const url = `https://api.whatsapp.com/send?phone=${PHONE_NO}&text=${encodeURIComponent(
         message || DEFAULT_MESSAGE
       )}`;
       window.open(url, "_blank");

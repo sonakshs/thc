@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import "@fortawesome/fontawesome-free/css/all.css";
 
 const Footer = () => {
   return (
@@ -11,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap items-center justify-between mb-8">
           <Link legacyBehavior href="/">
             <a>
-              <Image src='https://picsum.photos/64/64' alt="Traditional Healing Centre" width={64} height={64} />
+              <Image src='https://picsum.photos/64/64' alt="Traditional Health Centre" width={64} height={64} />
             </a>
           </Link>
           <div className="flex items-center">

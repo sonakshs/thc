@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">
-            Welcome to Traditional Healing Centre 
+            Welcome to Traditional Health Centre 
           </h2>
           <p className="text-gray-800 leading-loose">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -23,7 +23,7 @@ export default function About() {
           <div className="relative h-64 md:h-64">
             <Image
               src="https://picsum.photos/920/500"
-              alt="Traditional Healing Center"
+              alt="Traditional Health Center"
               layout="fill"
               objectFit="cover"
               className="rounded-lg"
