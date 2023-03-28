@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="bg-gray-100 py-20" data-aos="fade-up">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-2 md:px-0">
         <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">
             Welcome to Traditional Health Centre 

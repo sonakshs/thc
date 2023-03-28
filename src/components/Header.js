@@ -7,10 +7,6 @@ import Link from "next/link";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <header className="bg-black text-white">
       <nav className="container mx-auto flex flex-wrap justify-between items-center p-4 md:p-6">
@@ -23,7 +19,7 @@ const Header = () => {
         </div>
         <button
           className="block md:hidden border border-white rounded px-2 py-1 ml-auto"
-          onClick={toggleMenu}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? "Close" : "Menu"}
         </button>
