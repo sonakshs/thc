@@ -10,7 +10,7 @@ export default function Hero() {
         objectFit="cover"
         quality={100}
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center">
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center px-2 md:px-0">
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-center">
           Traditional Health Centre
         </h1>

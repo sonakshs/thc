@@ -25,7 +25,7 @@ export default function Contact() {
 
   return (
     <section className="py-20" data-aos="fade-up">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2 md:px-0">
         <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
           Contact Us
         </h2>
@@ -50,6 +50,7 @@ export default function Contact() {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   className="w-full border border-gray-400 p-2 rounded-lg"
+                  placeholder={DEFAULT_MESSAGE}
                 ></textarea>
               </div>
               <div className="text-center">

@@ -33,7 +33,7 @@ const events = [
 export default function Events() {
   return (
     <section className="py-20" data-aos="fade-up">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2 md:px-0">
         <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
           Upcoming Events
         </h2>

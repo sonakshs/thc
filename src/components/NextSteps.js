@@ -40,7 +40,7 @@ const nextSteps = [
 const NextSteps = () => {
   return (
     <section className="bg-white py-16">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2 md:px-0">
         <SectionHeading title="Ways we approach health" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {nextSteps.map(

@@ -8,7 +8,7 @@ const people = [
     title: "Lead Instructor",
     imageSrc: "https://picsum.photos/500/500",
     instagramLink: "https://www.instagram.com/richwilkerson/",
-    description: ""
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer`
   },
   {
     name: "Robert & Taylor Madu",
@@ -27,24 +27,24 @@ const people = [
 const OurPeople = () => {
   return (
     <section className="bg-gray-50 py-16">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2 md:px-0">
         <SectionHeading title="Meet our people" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {people.map(
             ({ name, title, imageSrc, description, instagramLink }) => (
               <div key={name} className="flex items-center justify-center p-6">
                 <div className="max-w-2xl mx-auto flex items-center">
-                  <div className="mr-6">
+                  <div className="mr-6 w-2/5">
                     <img
                       src={imageSrc}
                       alt={title}
                       className="rounded-full w-32 h-32"
                     />
                   </div>
-                  <div>
+                  <div className="w-3/5">
                     <h3 className="text-lg font-bold">{name}</h3>
                     <p className="text-gray-600">{title}</p>
-                    <p className="mt-4">{description}</p>
+                    <p className="my-4">{description}</p>
                     <Link href={instagramLink} target="_blank">
                       <i className="fab fa-instagram"></i>
                     </Link>
