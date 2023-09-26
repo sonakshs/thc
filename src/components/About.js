@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-2">
         <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-16 pl-4 lg:pl-0">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">
-            Welcome to Traditional Health Centre 
+            Welcome to Nabhiyog Foundation 
           </h2>
           <p className="text-gray-800 leading-loose">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
