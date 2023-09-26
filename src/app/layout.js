@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Traditional Health Centre',
+  title: 'Nabhiyog Foundation',
   description: 'Our mission is simple, to bring those who are far from Health close to it.',
 }
 

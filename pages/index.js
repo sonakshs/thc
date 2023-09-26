@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Traditional Health Center</title>
-        <meta name="description" content="Traditional Health Center in India" />
+        <title>Nabhiyog Foundation</title>
+        <meta name="description" content="Nabhiyog Foundation in India" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
