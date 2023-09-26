@@ -23,7 +23,7 @@ export default function About() {
           <div className="relative h-64 md:h-64">
             <Image
               src="https://picsum.photos/920/500"
-              alt="Traditional Health Center"
+              alt="Nabhiyog Foundation"
               layout="fill"
               objectFit="cover"
               className="rounded-lg"

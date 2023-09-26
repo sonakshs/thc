@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex items-center">
           <Link legacyBehavior href="/">
             <a>
-              <Image src='https://picsum.photos/500/198' alt="Traditional Health Center" width={64} height={64} />
+              <Image src='https://picsum.photos/500/198' alt="Nabhiyog Foundation" width={64} height={64} />
             </a>
           </Link>
         </div>
